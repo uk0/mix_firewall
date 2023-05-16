@@ -14,3 +14,14 @@
 #### 使用方法
 
 * build and run
+
+
+#### 自己改一下代码才能用
+
+```go
+const (
+	pcapDev     = "en0"           // 相关设备
+	packetLimit = 10              // 触发防火墙规则的数据包数量
+	cooldown    = time.Second * 5 // 防火墙规则的冷却时间
+)
+```
